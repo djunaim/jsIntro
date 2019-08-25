@@ -46,9 +46,9 @@ console.log(spamFactory('chicken'));
 console.log(spamFactory('octopus'));
 console.log(spamFactory('john wark'));
 
-const printToDOM = (toPrint) => {
-    document.getElementById('output').innerHTML = toPrint;
-}
+// const printToDOM = (toPrint) => {
+//     document.getElementById('output').innerHTML += toPrint;
+// }
 
 let bandNumber = 1
 
