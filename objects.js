@@ -37,8 +37,8 @@ const person = {
 
 findandLogEmployeeStatus(person);
 
-findandLogEmployeeStatus( {
-    name: prompt('Enter name here'),
-    status: ''
-})
+// findandLogEmployeeStatus( {
+//     name: prompt('Enter name here'),
+//     status: ''
+// })
 
