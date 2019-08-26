@@ -57,28 +57,34 @@
 let elizabethSanger = {
     district: '3',
     platform: [
-        taxes: '',
-        jobs: '',
-        infrastructure: '',
-        healthCare: '',
-        crimeAndEnforcement: ''
+        {
+            taxes: '',
+            jobs: '',
+            infrastructure: '',
+            healthCare: '',
+            crimeAndEnforcement: ''
+        }
     ],
     donationForm: '',
     calendarOfEvents: '',
     volunteerInfo: [
-        name: '',
-        address: '',
-        email: '',
-        phoneNumber: '',
-        availability: '',
-        activitiesToDo: ''
+        {
+            name: '',
+            address: '',
+            email: '',
+            phoneNumber: '',
+            availability: '',
+            activitiesToDo: ''
+        }
     ],
     biography: '',
     imageGallery: [
-        headShot: '',
-        famPic: '',
-        constituentsPic: ''
+        {
+            headShot: '',
+            famPic: '',
+            constituentsPic: '',
+        }
     ],
     missionStatement: '',
-    urlVoteRegistration: ''
-}
+    urlVoteRegistration: '',
+};
